@@ -112,4 +112,5 @@ while (generation != generations_size):
     if (fit >= best_fitness):
       best_fitness = fit
       fittest_individual = individual
+
 print("Generation: ", generation, " Best_Fitness: ", best_fitness, " Individual: ", fittest_individual)
